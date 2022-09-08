@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro section with dropdown navigation</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ============= HEADER =============== -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                snap
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item features__content features__close">
+                        <div class="features__header">
+                            <a href="#features" class="nav__link">Features</a>
+                            <i class="uil uil-angle-down a__down"></i>
+                        </div>
+                        <ul class="features__list grid">
+                            <li class="features__item">
+                                <i class="uil uil-notes note"></i> Todo List
+                            </li>
+                            <li class="features__item">
+                                <i class="uil uil-calendar-alt calendar"></i> Calender
+                            </li>
+                            <li class="features__item">
+                                <i class="uil uil-bell bell"></i> Reminders
+                            </li>
+                            <li class="features__item">
+                                <i class="uil uil-clock-three clock"></i> Planning
+                            </li>
+                        </ul>
+                    <li class="nav__item features__content features__close">
+                        <div class="features__header">
+                            <a href="#company" class="nav__link">Company</a>
+                            <i class="uil uil-angle-down a__down"></i>
+                        </div>
+                        <ul class="features__list grid">
+                            <li class="features__item company__item">
+                                History
+                            </li>
+                            <li class="features__item company__item">
+                                Our Team
+                            </li>
+                            <li class="features__item company__item">
+                                Blog
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#careers" class="nav__link">Careers</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                </ul>
+                <div class="nav__btns nav__btns-mobile">
+                    <a href="#login" class="button login__button">
+                        Login
+                    </a>
+                    <a href="#contact" class="button register__button">
+                        Register
+                    </a>
+                </div>
+                <div class="nav__close" id="nav-close">
+                    <i class="uil uil-multiply"></i>
+                </div>
+            </div>
+            <!-- <div class="nav__btns nav__btns-desk">
+                <a href="#login" class="button login__button">
+                    Login
+                </a>
+                <a href="#contact" class="button register__button">
+                    Register
+                </a>
+            </div> -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="uil uil-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- ================ MAIN ================== -->
+    <main class="main">
+        <section class="section grid container home">
+            <div class="home__img">
+                <img src="image/image-hero-mobile.png" alt="" class="first__image">
+                <img src="image/image-hero-desktop.png" alt="" class="second__image">
+            </div>
+            <div class="home__data container grid">
+                <h1 class="home__title"> Make remote work </h1>
+                <p class="home__description">
+                    Get your team in sync, no matter your location. Streamline processes, 
+                    create team rituals, and watch productivity soar.
+                </p>
+                <a href="#" class="button home__button">
+                    Learn More
+                </a>
+                <div class="home__partners container">
+                   <img src="image/client-databiz.svg">
+                   <img src="image/client-audiophile.svg">
+                   <img src="image/client-meet.svg">
+                   <img src="image/client-maker.svg">
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
